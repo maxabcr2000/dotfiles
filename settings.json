@@ -14,6 +14,7 @@
     "window.zoomLevel": 0,
     "rust-client.channel": "stable",
     "go.testFlags": [
-        "-v"
+        "-v",
+        "-count=1"
     ]
 }
