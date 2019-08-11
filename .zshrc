@@ -1,11 +1,15 @@
 ##### INSTALLED BY github.com/dt665m/dotfiles #####
 
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin:/usr/local/bin
 export ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
 # import plugins
 source ~/.zsh_plugins.sh
+source ~/.cargo/env
+
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
 # aliases
 alias git=hub
