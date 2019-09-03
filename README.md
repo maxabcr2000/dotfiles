@@ -10,6 +10,11 @@ These are my dotfiles...
 - iTerm2 needs to set /usr/local/zsh on startup
 - http://tgmerritt.github.io/jekyll/update/2015/06/23/option-arrow-in-iterm2.html 
 
+# Setup git cli access token in osxkeychain
+- go to github => Settings => Developer setting => Personal access tokens
+- Generate or Regenerate ccess token for "git command" and copy the token
+- when git-cli is asking for username & password, use the copied token as your password
+
 # Optional Post Install Steps
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
