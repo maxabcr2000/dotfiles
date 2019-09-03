@@ -21,7 +21,7 @@ rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-andro
 rustup target add wasm32-unknown-unknown
 
 # install environment tools and languages
-brew install zsh zsh-completions kubectx hub shfmt go
+brew install zsh zsh-completions kubectx hub shfmt go git
 brew cask install google-cloud-sdk
 
 # install and setup antibody
@@ -59,6 +59,7 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.com commit
 git config --global alias.st status
-git config --global credential.helper 'cache --timeout 604800'
+# setup git osxkeychainhelper (Only for Mac OS)
+git config --global credential.helper osxkeychain
 
 echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"
