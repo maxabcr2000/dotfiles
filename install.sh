@@ -20,6 +20,9 @@ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-appl
 rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android
 rustup target add wasm32-unknown-unknown
 
+# Additional config for cargo aceess to git
+cp cargo_config ~/.cargo/config
+
 # install environment tools and languages
 brew install zsh zsh-completions kubectx hub shfmt go git
 brew cask install google-cloud-sdk
