@@ -24,7 +24,7 @@ rustup target add wasm32-unknown-unknown
 cp cargo_config ~/.cargo/config
 
 # install environment tools and languages
-brew install zsh zsh-completions kubectx hub shfmt go git
+brew install zsh zsh-completions kubectx hub shfmt go git node 
 brew cask install google-cloud-sdk
 
 # install and setup antibody
