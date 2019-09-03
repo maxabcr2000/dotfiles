@@ -15,6 +15,9 @@ These are my dotfiles...
 - Generate or Regenerate ccess token for "git command" and copy the token
 - when git-cli is asking for username & password, use the copied token as your password
 
+# Config docker to use osxkeychain
+- https://github.com/docker/docker-credential-helpers
+
 # Optional Post Install Steps
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
