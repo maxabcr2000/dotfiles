@@ -24,7 +24,7 @@ rustup target add wasm32-unknown-unknown
 cp cargo_config ~/.cargo/config
 
 # install environment tools and languages
-brew install zsh zsh-completions kubectx hub shfmt go git node 
+brew install zsh zsh-completions kubectx hub shfmt go git node yarn
 brew cask install google-cloud-sdk
 
 # install and setup antibody
@@ -64,5 +64,8 @@ git config --global alias.com commit
 git config --global alias.st status
 # setup git osxkeychainhelper (Only for Mac OS)
 git config --global credential.helper osxkeychain
+
+# install react & create-react-app
+npm install -g create-react-app
 
 echo "!! Terminal Apps need 'MesloLGM Nerd Font' in order to properly display Powerline Fonts"
