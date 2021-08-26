@@ -23,5 +23,9 @@ These are my dotfiles...
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
 
 
+# If having issue runing brew install on macOS
+```sudo chown -R $(whoami) $(brew --prefix)/*```
+
+
 # Todo
 - make backups of .zshrc if one exists
