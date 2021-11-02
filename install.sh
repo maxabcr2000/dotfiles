@@ -36,7 +36,7 @@ antibody update
 # install powerlevel9k and nerdfonts
 brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-meslo-nerd-font
 brew cask install iterm2
 brew cask install visual-studio-code
