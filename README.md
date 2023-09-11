@@ -5,6 +5,12 @@ These are my dotfiles...
 ./install.sh
 ```
 
+# Preparation
+- Install homebrew
+- Install git through homebrew
+- Clone this repo from github
+- Run install.sh
+
 # Post Install Setup 
 - Set terminal font to one of the Nerd Font types (recommending "MesloLGM Nerd Font")
 - iTerm2 needs to set /usr/local/zsh on startup
