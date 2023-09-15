@@ -22,7 +22,7 @@ These are my dotfiles...
 - when git-cli is asking for username & password, use the copied token as your password
 
 # Config terminal schemes color & show git branch name
-- Follow the instructions in this (page)[https://medium.com/statementdog-engineering/prettify-your-zsh-command-line-prompt-3ca2acc967f]
+- Follow the instructions in this [page](https://medium.com/statementdog-engineering/prettify-your-zsh-command-line-prompt-3ca2acc967f)
 
 # Config docker to use osxkeychain
 - https://github.com/docker/docker-credential-helpers
