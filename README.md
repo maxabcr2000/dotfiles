@@ -27,6 +27,9 @@ These are my dotfiles...
 # Config docker to use osxkeychain
 - https://github.com/docker/docker-credential-helpers
 
+# If we want to add gclouds authentication to docker
+- https://cloud.google.com/container-registry/docs/advanced-authentication#gcloud-helper
+
 # Optional Post Install Steps
 - https://code.visualstudio.com/docs/setup/mac to add ```code``` command to terminals
 - ```go get -u github.com/derekparker/delve/cmd/dlv```
